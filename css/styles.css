@@ -1,0 +1,617 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*Header-Section*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header .main-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.main-header .logo-section .logo-image img {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.main-header .right-section {
+    display: flex;
+}
+
+.right-section .navigation-section {
+    border-right: 3px solid gray;
+    height: 24px;
+    margin-top: 5px;
+}
+
+.navigation-section ul {
+    display: flex;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navigation-section ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-right: 20px;
+}
+
+.navigation-section ul li {
+    list-style: none;
+}
+
+.road-assistance .call-logo {
+    display: flex;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.call-logo .call-image {
+    padding-right: 10px;
+
+}
+
+
+/* First-Section */
+
+#first-section {
+    padding-top: 40px;
+
+}
+
+#first-section h1 {
+    font-size: 35px;
+    padding: 20px 0;   
+}
+
+#first-section .main-section {
+    display: flex;
+    padding: 30px 0;
+}
+
+#first-section .main-section .left-section {
+    width: 30%;
+}
+
+#first-section .main-section .left-section .box-section {
+    background-color: #F5F5F5;
+    padding: 20px 30px;
+}
+
+#first-section .main-section .left-section .box-section h3 {
+    padding: 5px 0;
+    text-align: center;
+}
+
+#first-section .main-section .left-section .box-section .box {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+    margin: 20px 0;
+    background-color: white;
+}
+
+#first-section .main-section .left-section .box-section .box:hover {
+    background-color: orangered;
+    color: white;
+}
+
+#first-section .main-section .left-section .box-section .box p {
+    padding-top: 10px;
+}
+
+#first-section .main-section .left-section .customer {
+    padding-top: 30px;
+}
+
+#first-section .main-section .left-section .customer .customer-box {
+    padding-bottom: 20px;
+}
+
+#first-section .main-section .left-section .customer .customer-box .image-part {
+    padding: 15px;
+    background-color: #F5F5F5;
+    border-radius: 100px;
+    height: 50%;
+    margin-right: 15px;
+}
+
+#first-section .main-section .left-section .customer .customer-box h5 {
+    padding-bottom: 3px;
+    font-size: 20px;
+}
+
+#first-section .main-section .left-section .customer .customer-box .texts small {
+    font-size: 15px;
+    color: #1E1B1B;
+    line-height: 20px;
+    opacity: 0.8;
+}
+
+.main-section .left-section .customer .customer-box {
+    display: flex;
+}
+
+#first-section .main-section .right-section {
+    width: 60%;
+    padding: 10px 40px;
+}
+
+#first-section .main-section .right-section .image-part {
+    width: 100%;
+}
+
+#first-section .main-section .right-section .text h2 {
+    padding: 20px 0;  
+}
+
+#first-section .main-section .right-section .text {
+    width: 120%;
+}
+
+#first-section .main-section .right-section .text small {
+    line-height: 25px;
+}
+
+
+/* Second-Section */
+
+#second-section .main-section {
+    display: flex;
+}
+
+#second-section .main-section {
+    width: 100%;
+}
+
+#second-section .main-section .car-section {
+    width: 28%;
+}
+
+#second-section .main-section .car-section img {
+    height: 100%;
+
+}
+
+#second-section .main-section .text-section {
+    width: 32%;
+    background-color: orangered;
+    color: white;
+    padding: 90px 30px;
+}
+
+#second-section .main-section .text-section p {
+    font-size: 26px;
+}
+
+#second-section .main-section .text-section .btn {
+    padding: 40px 0;
+}
+
+#second-section .main-section .text-section button {
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#second-section .main-section .engine-section {
+    width: 40%;
+}
+
+#second-section .main-section .engine-section img {
+    width: 100%;
+    height: 100%;
+}
+
+#second-section .number-section {
+    height: 120px;
+    background-color: #F2F2F2;
+    display: flex;
+    padding-bottom: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#second-section .number-section h1 {
+    font-size: 45px;
+    color: #661CE7;
+    font-weight: bold;
+}
+
+#second-section .number-section p {
+    font-weight: 550;
+    color: #1E1B1B;
+}
+
+
+/* Third-Section */
+
+#third-section {
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding: 50px 0;
+}
+
+#third-section .main-section {
+    display: flex;
+}
+
+#third-section .main-section .left-section {
+    width: 45%;
+    padding: 10px;
+}
+
+#third-section .main-section .left-section h2 {
+    font-size: 35px;
+    padding-bottom: 40px;
+}
+
+#third-section .main-section .left-section .logos {
+    display: flex;
+    padding-top: 50px;
+}
+
+#third-section .main-section .left-section .logos img {
+    padding-right: 40px;
+    width: 120%;
+}
+
+#third-section .main-section .right-section {
+    width: 45%;
+    padding: 10px 0;
+    padding-left: 50px;
+}
+
+#third-section .main-section .right-section .text {
+    padding-bottom: 40px;
+}
+
+#third-section .main-section .right-section .text p {
+    line-height: 36px;
+}
+
+#third-section .main-section .right-section .text small {
+    font-size: 17px;
+    color: gray;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    padding: 40px 0;
+}
+
+footer .main-footer {
+    display: flex;
+}
+
+footer .main-footer .logo-section {
+    width: 20%;
+}
+
+footer .main-footer .middle-section {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .navigation-section ul li a{
+    color: white;
+}  
+
+footer .main-footer .last-section {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .main-footer .last-section small {
+    color: gray;
+}
+
+
+/* Media-Query */
+
+/* Laptop-View */
+@media only screen and (max-width: 1024.99px) {
+    header .main-header {
+        flex-direction: column;
+    }
+
+    .main-header .logo-section .logo-image img {
+        width: 20%;
+    }
+
+    .main-header .right-section {
+        padding-top: 10px;
+    }
+
+    #first-section h1 {
+        padding: 10px 0;
+    }
+
+    #first-section .main-section .left-section .customer .customer-box .image-part {
+        padding: 10px;
+    }
+
+    #first-section .main-section .right-section .text small {
+        font-size: 16px;
+    }
+
+    #first-section .main-section .left-section .box-section {
+        padding: 20px;
+    }
+
+    #first-section .main-section .left-section .box-section .box {
+        padding: 30px;
+    }
+
+    #first-section .main-section .left-section .customer .customer-box .texts small {
+        font-size: 15px;
+    }
+
+    #second-section .main-section .car-section img {
+        width: 250%;
+    }
+
+    #second-section .main-section .text-section {
+        padding: 40px 30px;
+    }
+
+    footer .main-footer .logo-section {
+        width: 20%;
+    }
+
+    footer .main-footer .middle-section {
+        width: 70%;
+        margin-bottom: 5px;
+    }
+
+    footer .main-footer .last-section {
+        width: 15%;
+    }
+
+    .navigation-section ul {
+        font-size: 16px;
+    }
+
+    .main-footer .middle-section .navigation-section ul li a {
+        font-size: 15px;
+    }
+
+}
+
+/* Tablet-View */
+@media only screen and (max-width: 768.99px) {
+    .road-assistance .call-logo {
+        display: none;
+    }
+
+    .right-section .navigation-section {
+        border-right: none;
+    }
+
+    .navigation-section ul li a {
+        font-size: 17px;
+    }
+
+    #first-section h1 {
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    #first-section .main-section {
+        flex-direction: column;
+    }
+
+    #first-section .main-section .left-section {
+        width: 100%;
+    }
+
+    #first-section .main-section .left-section .box-section .main {
+        display: flex;
+    }
+
+    #first-section .main-section .left-section .box-section h3 {
+        padding-bottom: 10px;
+    }
+
+    #first-section .main-section .left-section .box-section .box {
+        margin: 0 10px;
+    }
+
+    #first-section .main-section .left-section .customer .customer-box {
+        width: 100%;
+    }
+
+    #first-section .main-section .right-section {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #first-section .main-section .right-section .image-part {
+        width: 100%;
+    }
+
+    #first-section .main-section .right-section .image-part img {
+        width: 100%;
+    }
+
+    #first-section .main-section .right-section .text {
+        width: 100%;
+    }
+
+    #first-section .main-section .right-section .text h2 {
+        font-size: 23px;
+    }
+
+    #second-section .main-section .text-section {
+        padding: 30px;
+    }
+
+    #second-section .main-section .text-section p {
+        font-size: 25px;
+    }
+
+    #third-section .main-section .left-section h2 {
+        font-size: 30px;
+    }
+
+    #third-section .main-section .right-section .text {
+        padding-bottom: 25px;
+    }
+
+    #third-section .main-section .right-section .text p {
+        line-height: 30px;
+    }
+
+    footer .main-footer {
+        flex-direction: column;
+    }
+
+    footer .main-footer .middle-section {
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    .main-footer .middle-section .navigation-section ul li a {
+        font-size: 17px;
+    }
+
+    footer .main-footer .last-section {
+        width: 100%;
+        padding: 5px 0;
+        font-size: 17px;
+    }
+
+
+}
+
+/* Mobile-View */
+@media only screen and (max-width: 425.99px) {
+    .main-header .logo-section .logo-image img {
+        width: 50%;
+    }
+
+    .navigation-section ul {
+        flex-direction: column;
+        line-height: 25px;
+    }
+
+    .navigation-section ul li a {
+        margin: 0;
+        width: 100%;
+    }
+
+    header .main-header {
+        padding-bottom: 80px;
+    }
+
+    #first-section {
+        padding-top: 100px;
+    }
+
+    #first-section .main-section .left-section .main {
+        flex-direction: column;
+        padding: 30px;
+        padding-top: 0;
+    }
+
+    #first-section .main-section .left-section .box-section .box {
+        margin: 10px 0;
+    }
+
+    #first-section .main-section .left-section .customer .customer-box h5 {
+        font-size: 19px;
+    }
+
+    #first-section .main-section .left-section .customer .customer-box .texts small {
+        font-size: 14px;
+    }
+
+    #first-section .main-section .right-section .text h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #first-section .main-section .right-section .text small {
+        font-size: 15px;
+    }
+
+    #second-section .main-section {
+        flex-direction: column;
+    }
+
+    #second-section .main-section .car-section {
+        width: 100%;
+        background-color: orangered;
+    }
+
+    #second-section .main-section .car-section img {
+        width: 100%;
+    }
+
+    #second-section .main-section .text-section {
+        width: 100%;
+    }
+
+    #second-section .main-section .text-section .btn {
+        padding: 25px 0;
+    }
+
+    #second-section .main-section .engine-section {
+        width: 100%;
+        background-color: #1E1B1B;
+    }
+
+    #third-section .main-section {
+        flex-direction: column;
+    }
+
+    #third-section .main-section .left-section {
+        width: 100%;
+        padding: 0;
+        order: 2;
+        border-top: 2px solid grey;
+        padding-top: 30px;
+    }
+
+    #third-section .main-section .right-section {
+        width: 100%;
+        padding: 0;
+        order: 1;
+    }
+
+    footer .main-footer .middle-section {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    footer .main-footer .last-section {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+
+}
